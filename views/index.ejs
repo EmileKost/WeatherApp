@@ -1,0 +1,17 @@
+<%- include('partials/head.ejs') %>
+
+<header>
+    <h1>
+        WeatherApp
+    </h1>
+</header>
+<%- include('partials/nav.ejs') %>
+<main>
+    <% if(!locations.length) {%>
+        <p>
+            Je hebt nog geen locaties toegevoegd.
+        </p>
+        <% } %>
+</main>
+
+<%- include('partials/foot.ejs') %>
